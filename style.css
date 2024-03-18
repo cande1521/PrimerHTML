@@ -1,6 +1,115 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #d6b78ac1;
     margin: 20px;
   }
+
+#Títulos {
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    font-size: medium;
+    margin: auto;
+    margin-top: 1.5em;
+    width: 60vw;
+    margin: auto;
+    padding: 4em;
+    color:rgb(11, 9, 5);
+    }
+
+#titulo {
+    font-size: 5em ;
+}
+
+#categorías{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2em;
+    align-items: center;
+}
+
+.imagenencabezado {
+    display: flex;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2em;
+    margin-top:1.5em ;
+}
+
+
+.informativo {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+    margin: auto;
+    padding: 1em;
+    font-size: medium;
+}
+.informativo h3 {
+    margin-top: 0.5em;
+}
+
+.informativo p {
+    margin-top: 0.5em;
+}
+
+
+.liquidación {
+    margin: auto;
+    padding: 1em;
+    font-size: medium;
+}
+
+.liquidación h2 {
+    margin-top: 0.5em;
+}
+
+.liquidación p {
+    margin-top: 0.5em;
+}
+.formatotitulosliquidación {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+#imagenesliquidación img {
+    width: 100px; /* ajusta el ancho de la imagen */
+    height: auto; /* ajusta la altura de la imagen automáticamente según el ancho */
+    margin: 0 5px;
+}
+
+#imagenesliquidación {
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.item-liquidacion {
+    text-align: center;
+}
+
+.item-liquidacion span {
+    display: block;
+    margin-bottom: 5px; /* Espacio entre el nombre de la lista y la imagen */
+}
+
+
+.infofooter {
+    margin: auto;
+    padding: 1em;
+    font-size: medium;
+       
+}
+.infofooter p {
+    margin-bottom: 0.5em; /* Ajusta el valor según sea necesario */
+}
+
+.infofooter a {
+    margin-top: 0.5em; 
+}

@@ -2,61 +2,72 @@
 <html lang="es">
     <head>
         <meta charset = "UTF-8">
-        <META name="viewport" content="width=device-width, initial-scale=1.0>"
-        <title>Mi página web</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
     
-    <body style ='background-color: beige;'>
-
-<header>
-    <h1>Tresdelseis Baby</h1>
-
-    <img src="./IMG_7325.JPEG">
-
-    <span>ARTÍCULOS</span>
-    <span>¿CÓMO COMPRAR?</span>
-    <span>CONTACTO</span>
-</header>
-
-<main style = 'background-color: bisque;'>
-    <section style="color:darkgoldenrod">
-            <h2>Nuevas ofertas</h2>
-
-            <article>
+    <body>
+        <header>
+            <div id="Títulos">
+                <h1 id= "titulo">
+                    Tresdelseis Baby
+                </h1>
                 
-                <h3>LLEGAMOS A LOS 10K</h3>
-
-                <div> 
-                    <p>Es momento de festejar este gran logro con ustedes, es por eso que el 14 y 15 de Marzo encontrarán un 20% OFF en toda nuestra tienda</p>
-                
+                <img src="./Tresdelseis.jpg" class="imagenencabezado" > 
+                <div id="categorías">
+                    <span>ARTÍCULOS</span>
+                    <span>¿CÓMO COMPRAR?</span>
+                    <span>CONTACTO</span>
                 </div>
+            </div>
+        </header>
+        
 
-               
-            </article>
-            <hr />
-            
-            <article>
-                  <h3>LIQUIDACIÓN</h3>
-                  <p>Las siguientes categorías están en liquidación</p>
-                  <ul> 
-                    <li>Bodys</li>
-                    <li>Conjuntos</li>
-                    <li>Accesorios</li>
-                  </ul>
-            </article>
-            <hr />
+        <main>
+            <div>
+                <section>                  
+                                       
+                    <article> 
+                        <div class="informativo">
+                            <h3>LLEGAMOS A LOS 10K</h3>                       
+                            <p>Es momento de festejar este gran logro con ustedes, es por eso que el 14 y 15 de Marzo encontrarán un 20% OFF en toda nuestra tienda</p>                         
+                        </div>                                                
+                    </article>
+                    <hr />
+                    <article class="liquidación">
+                        <div class="formatotitulosliquidación">
+                            <h2>LIQUIDACIÓN</h2>
+                            <p>Las siguientes categorías están en liquidación</p>
+                        </div>
+                        
+                        <div id="imagenesliquidación">
+                            <div class="item-liquidacion">
+                                <span>Bodys</span>
+                                <img src="./IMG_7620-removebg-preview.png">
+                            </div>
+                            <div class="item-liquidacion">
+                                <span>Conjuntos</span>
+                                <img src="./IMG_7473-removebg-preview.png">
+                            </div>
+                            <div class="item-liquidacion">
+                                <span>Accesorios</span>
+                                <img src="IMG_7621-removebg-preview.png">
+                            </div>
+                        </div>
+                    </article>
+                    <hr/>                  
+                </section>
+            </div>               
+        </main>
 
-           
-    </section>
-</main>
-       
-<footer>
-    <p>
-        ¿Quiéres contactarte con nosotros? 
-    </p>
-    <a href="./contacto.html">Completa el siguiente formulario</a>
-</footer>
+    <footer class="infofooter">
+        <p>
+            ¿Quiéres contactarte con nosotros? 
+        </p>
+        <a href="./contacto.html">Completa el siguiente formulario</a>
+    </footer>
+
         
 </body>
 </html>
